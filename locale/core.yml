@@ -452,7 +452,7 @@ core:
     settings: Settings
     sign_up: Sign Up
     some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-    start_a_discussion: Start a Discussion
+    start_a_discussion: התחל דיון
     username: Username
     write_a_reply: Write a Reply...
     you: You                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
