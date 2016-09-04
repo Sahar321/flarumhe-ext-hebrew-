@@ -160,11 +160,11 @@ core:
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      body_placeholder: Write a Post...
+      body_placeholder: כתוב תגובה...
       discard_confirmation: "You have not posted your discussion. Do you wish to discard it?"
-      submit_button: Post Discussion
+      submit_button: פרסם דיון
       title: => core.ref.start_a_discussion
-      title_placeholder: Discussion Title
+      title_placeholder: כותרת דיון
 
     # These translations are used by the composer when editing a post.
     composer_edit:
@@ -240,9 +240,9 @@ core:
     # These translations are used by the sorting control above the discussion list.
     index_sort:
       latest_button: Latest
-      newest_button: Newest
-      oldest_button: Oldest
-      relevance_button: Relevance
+      newest_button: חדש ביותר
+      oldest_button: ישן ביותר
+      relevance_button: רלוונטי
       top_button: Top
 
     # These translations are used in the Log In modal dialog.
@@ -430,7 +430,7 @@ core:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    all_discussions: All Discussions
+    all_discussions: כל הדיונים
     change_email: Change Email
     change_password: Change Password
     confirmation_email_sent: "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
