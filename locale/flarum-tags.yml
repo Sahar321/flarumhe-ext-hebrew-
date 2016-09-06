@@ -13,11 +13,11 @@ flarum-tags:
 
     # These translations are used in the Edit Tag modal dialog.
     edit_tag:
-      color_label: Color
-      delete_tag_button: Delete Tag
+      color_label: צבע
+      delete_tag_button: הסר תגית
       delete_tag_confirmation: "Are you sure you want to delete this tag? The tag's discussions will NOT be deleted."
-      description_label: Description
-      hide_label: Hide from All Discussions
+      description_label: תיאור
+      hide_label: הסתר מכול הדיונים
       name_label: => flarum-tags.ref.name
       name_placeholder: => flarum-tags.ref.name
       slug_label: Slug
@@ -27,13 +27,13 @@ flarum-tags:
     # These translations are used in the navigation bar.
     nav:
       tags_button: => flarum-tags.ref.tags
-      tags_text: Manage the list of tags available to organise discussions with.
+      tags_text: ארגן את רשימת התגיות הזמינות על מנת לארגן באמצעותן דיונים.
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_edit_tags_label: Allow tag editing
-      restrict_by_tag_heading: Restrict by Tag
-      tag_discussions_label: Tag discussions
+      allow_edit_tags_label: אפשר עריכת תגיות
+      restrict_by_tag_heading: הגבל על-פי תג
+      tag_discussions_label: תגית דיונים
 
     # These translations are used in the Tag Settings modal dialog.
     tag_settings:
@@ -42,15 +42,15 @@ flarum-tags:
       required_primary_text: Enter the minimum and maximum number of primary tags that may be applied to a discussion.
       required_secondary_heading: Required Number of Secondary Tags
       required_secondary_text: Enter the minimum and maximum number of secondary tags that may be applied to a discussion.
-      title: Tag Settings
+      title: הגדרות תג
 
     # These translations are used in the Tags page.
     tags:
       about_tags_text: "Tags are used to categorize discussions. Primary tags are like traditional forum categories: they can be arranged in a two-level hierarchy. Secondary tags do not have hierarchy or order, and are useful for micro-categorization."
       create_tag_button: => flarum-tags.ref.create_tag
-      primary_heading: Primary Tags
-      secondary_heading: Secondary Tags
-      settings_button: Settings
+      primary_heading: תגים ראשיים
+      secondary_heading: תגים משניים
+      settings_button: הגדרות
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -65,17 +65,17 @@ flarum-tags:
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      choose_tags_link: Choose Tags
+      choose_tags_link: בחר תגיות
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      edit_tags_button: Edit Tags
+      edit_tags_button: ערוך תגיות
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       more_link: More...
       tags_link: => flarum-tags.ref.tags
-      untagged_link: Untagged
+      untagged_link: הסר תגית
 
     # These translations are displayed between posts in the post stream.
     post_stream:
@@ -88,7 +88,7 @@ flarum-tags:
   lib:
 
     # This translation is displayed in place of the name of a tag that's been deleted.
-    deleted_tag_text: Deleted
+    deleted_tag_text: נמחק
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -96,6 +96,6 @@ flarum-tags:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    create_tag: Create Tag
-    name: Name
-    tags: Tags
+    create_tag: צור תגית
+    name: שם
+    tags: תגיות
