@@ -220,21 +220,21 @@ core:
 
     # These translations are used in the header and session dropdown menu.
     header:
-      admin_button: Administration
+      admin_button: ניהול
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
-      profile_button: Profile
-      search_placeholder: Search Forum
+      profile_button: פרופיל
+      search_placeholder: חפש בפורום...
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       all_discussions_link: => core.ref.all_discussions
-      cannot_start_discussion_button: Can't Start Discussion
+      cannot_start_discussion_button: התחלת דיון
       mark_all_as_read_confirmation: "Are you sure you want to mark all discussions as read?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
-      refresh_tooltip: Refresh
+      refresh_tooltip: רענן
       start_discussion_button: => core.ref.start_a_discussion
 
     # These translations are used by the sorting control above the discussion list.
@@ -248,17 +248,17 @@ core:
     # These translations are used in the Log In modal dialog.
     log_in:
       forgot_password_link: "Forgot password?"
-      invalid_login_message: Your login details were incorrect.
+      invalid_login_message: פרטי ההתחברות שגויים.
       password_placeholder: => core.ref.password
       sign_up_text: "Don't have an account? <a>Sign Up</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
-      username_or_email_placeholder: Username or Email
+      username_or_email_placeholder: הכנס שם משתמש/אימייל
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       discussion_renamed_text: "{username} changed the title"
-      empty_text: No Notifications
+      empty_text: אין הודעות
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       title: => core.ref.notifications
       tooltip: => core.ref.notifications
@@ -277,8 +277,8 @@ core:
 
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
-      now_link: Now
-      original_post_link: Original Post
+      now_link: עכשיו
+      original_post_link: תגובה מקורית
       unread_text: "{count} unread"
       viewing_text: "{index} of {count} post|{index} of {count} posts"
 
@@ -297,15 +297,15 @@ core:
 
     # These translations are used in the Settings page.
     settings:
-      account_heading: Account
+      account_heading: חשבון
       change_email_button: => core.ref.change_email
       change_password_button: => core.ref.change_password
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: Web
-      notify_discussion_renamed_label: Someone renames a discussion I started
-      privacy_disclose_online_label: Allow others to see when I am online
-      privacy_heading: Privacy
+      notify_discussion_renamed_label: שינוי שם לדיונים שפתחתי
+      privacy_disclose_online_label: אפשר לאחרים לראות כשאני מחובר
+      privacy_heading: פרטיות
       title: => core.ref.settings
 
     # These translations are used in the Sign Up modal dialog.
@@ -321,15 +321,15 @@ core:
 
     # These translations are used in the user profile page and profile popup.
     user:
-      avatar_remove_button: Remove
-      avatar_upload_button: Upload
-      bio_placeholder: Write something about yourself
+      avatar_remove_button: מחק
+      avatar_upload_button: העלה
+      bio_placeholder: כתוב משהו על עצמך
       discussions_link: => core.ref.discussions
       in_discussion_text: "In {discussion}"
       joined_date_text: "Joined {ago}"
-      online_text: Online
+      online_text: מחובר
       posts_load_more_button: => core.ref.load_more
-      posts_link: Posts
+      posts_link: תגובות
       settings_link: => core.ref.settings
 
     # These translations are found on the user profile page (admin function).
@@ -342,15 +342,15 @@ core:
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
     user_email_confirmation:
       alert_message: => core.ref.confirmation_email_sent
-      resend_button: Resend Confirmation Email
-      sent_message: Sent
+      resend_button: שלח אימות אימייל מחדש
+      sent_message: נשלח
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
 
     # These translations are displayed as tooltips for discussion badges.
     badge:
-      hidden_tooltip: Hidden
+      hidden_tooltip: מוסתר
 
     # These translations are used to modify usernames.
     username:
@@ -376,11 +376,11 @@ core:
 
   # Translations in this namespace are used in basic HTML interface.
   basic:
-    javascript_disabled_message: This site is best viewed in a modern browser with JavaScript enabled.
+    javascript_disabled_message: דף זה פועל במיטבו כאשר נצפה בדפדפן אינטרנט מודרני.
     load_error_message: Something went wrong while trying to load the full version of this site.
-    loading_text: Loading...
-    next_page_button: Next Page
-    previous_page_button: Previous Page
+    loading_text: טוען...
+    next_page_button: הדף הבא
+    previous_page_button: הדף הקודם
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
@@ -431,31 +431,31 @@ core:
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
     all_discussions: כל הדיונים
-    change_email: Change Email
-    change_password: Change Password
+    change_email: שנה אימייל
+    change_password: שנה סיסמה
     confirmation_email_sent: "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
-    delete: Delete
-    delete_forever: Delete Forever
-    discussions: Discussions
-    edit: Edit
-    email: Email
-    load_more: Load More
-    log_in: Log In
-    log_out: Log Out
-    mark_all_as_read: Mark All as Read
-    notifications: Notifications
+    delete: הסר
+    delete_forever: הסר לתמיד
+    discussions: דיונים
+    edit: ערוך
+    email: אימייל
+    load_more: טען עוד
+    log_in: התחבר
+    log_out: התנתק
+    mark_all_as_read: סמן הכול כנקרא
+    notifications: הודעות
     okay: OK                                     # Referenced by flarum-tags.yml
-    password: Password
-    reply: Reply                                 # Referenced by flarum-mentions.yml
-    restore: Restore
-    save_changes: Save Changes                   # Referenced by flarum-suspend.yml, flarum-tags.yml
-    settings: Settings
-    sign_up: Sign Up
+    password: סיסמה
+    reply: הגב                                 # Referenced by flarum-mentions.yml
+    restore: שחזר
+    save_changes: שמור שינויים                   # Referenced by flarum-suspend.yml, flarum-tags.yml
+    settings: הגדרות
+    sign_up: הירשם
     some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: התחל דיון
-    username: Username
-    write_a_reply: Write a Reply...
-    you: You                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
+    username: שם משתמש
+    write_a_reply: כתוב תגובה...
+    you: אתה                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
   # GROUP NAMES - These keys are translated at the back end.
@@ -463,11 +463,11 @@ core:
 
   # Translations in this namespace are used to translate default group names.
   group:
-    admin: Admin
-    admins: Admins
-    guest: Guest
-    guests: Guests
-    member: Member
-    members: Members
-    mod: Mod
-    mods: Mods
+    admin: מנהל כללי
+    admins: מנהלים כללים
+    guest: אורח
+    guests: אורחים
+    member: משתמש
+    members: משתמשים
+    mod: מנהל
+    mods: מנהלים
